@@ -1,9 +1,9 @@
 package Praktikum03;
 
 public class Motor {
-    public String platNomor;
-    public boolean statusMesin;
-    public int kecepatan;
+    private String platNomor;
+    private boolean statusMesin;
+    private int kecepatan;
 
     public String getPlatNomor() {
         return platNomor;
