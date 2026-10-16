@@ -20,4 +20,8 @@ public class Dosen extends Pegawai {
 
         return info;
     }
+
+    public Dosen (String nip, String nama, double gaji, String nidn){
+        System.out.println("Ini constructor class dosen dengan parameter");
+    }
 }
