@@ -9,6 +9,6 @@ public class InharitanceDemo {
         dosen1.gaji = 3000000;
         dosen1.nidn = "1989432439";
 
-        System.out.println(dosen1.getInfo());
+        System.out.println(dosen1.getAllInfo());
     }
 }

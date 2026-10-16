@@ -15,6 +15,8 @@ public class RumahSakitDemo {
         Pasien pasien2 = new Pasien(
                 "P002", "Yenny Anggraeni");
 
+        pasien2.setNama("ani");
+
         RekamMedis rekam1 = new RekamMedis(
                 "RM001",
                 "19-09-2026",
