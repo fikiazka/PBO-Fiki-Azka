@@ -4,6 +4,7 @@ public class Dosen extends Pegawai {
     String nidn;
 
     public Dosen(){
+        super("", "", 0);
         System.out.println("Ini constructor class dosen");
     }
 
@@ -22,6 +23,7 @@ public class Dosen extends Pegawai {
     }
 
     public Dosen (String nip, String nama, double gaji, String nidn){
-        System.out.println("Ini constructor class dosen dengan parameter");
+        super(nip, nama, gaji);
+        this.nidn = nidn;
     }
 }

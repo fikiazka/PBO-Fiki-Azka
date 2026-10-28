@@ -1,11 +1,17 @@
 package Praktikum07;
 public class Pegawai {
-    String nama;
-    String nip;
-    double gaji;
+    public String nama;
+    public String nip;
+    public double gaji;
 
-    public Pegawai(){
-        System.out.println("Ini constructor class pegawai");
+    // public Pegawai(){
+    //     System.out.println("Ini constructor class pegawai");
+    // }
+
+    public Pegawai(String nip, String nama, double gaji){
+        this.nip = nip;
+        this.nama = nama;
+        this.gaji = gaji;
     }
 
     public String getInfo(){
