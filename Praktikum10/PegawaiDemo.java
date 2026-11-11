@@ -1,7 +1,5 @@
 package Praktikum10;
 
-import java.util.ArrayList;
-
 public class PegawaiDemo {
     public static void main(String[] args) {
         Dosen dosen1 = new Dosen("19940201", "Widia, S.Kom. M,Kom", "199402");
