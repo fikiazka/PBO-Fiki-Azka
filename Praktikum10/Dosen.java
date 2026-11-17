@@ -1,6 +1,6 @@
 package Praktikum10;
 
-public class Dosen extends Pegawai {
+public class Dosen extends Pegawai implements Comparable<Dosen> {
     public String nidn;
 
     public Dosen(){
@@ -10,6 +10,11 @@ public class Dosen extends Pegawai {
     public Dosen(String nip, String nama, String nidn) {
         super(nip, nama);
         this.nidn = nidn;
+    }
+
+    @Override
+    public int compareTo(Dosen otherDosen) {
+        return this.nidn.compareTo(otherDosen.nidn);
     }
 
     public void displayInfo(){
